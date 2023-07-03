@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="TRX training app"/>
+    <link rel="apple-touch-icon" href="./images/logo_with_background.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    </style>
+    <title>TRX Star</title>
+  </head>
+  <body style="margin: 0px; padding: 0px; height:100%; overflow-x: hidden;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        if('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceworker.js')
+            .then((reg => console.log('Service worker successfully registered at: ', reg.scope)))
+            .catch((err) => console.log('Failed to register service worker. ', err));
+          })
+        }
+    </script>
+    <!-- <script> src="db.js"</script> -->
+    
+  </body>
+</html>

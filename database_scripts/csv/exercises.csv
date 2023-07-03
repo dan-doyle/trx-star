@@ -1,0 +1,89 @@
+﻿exercise_name,muscle_group,muscle_type,position,focus,intensity
+assisted lunge,lowerBody,"quads,glutes,calves",1,1,1
+assisted sit up,absCore,abdomen,1,1,1
+back lunge,lowerBody,"glutes,quads",1,1,1
+balance lunges,"lowerBody,absCore","abdomen,glutes,quads",1,1,1
+balance lunges hop,lowerBody,"glutes,quads",1,1,3
+bent leg raise,absCore,"abdomen,obliques",1,1,2
+biceps clutch,upperBody,biceps,1,1,1
+biceps curl,upperBody,"biceps,triceps",1,1,1
+biceps+triceps,upperBody,"biceps,triceps",1,1,1
+boxing,upperBody,biceps,1,0,3
+chest fly,upperBody,chest,1,1,2
+chest press,upperBody,"chest,triceps",1,1,2
+chest press + reach out,upperBody,"chest,triceps,shoulders",1,1,1
+close grip triceps press,upperBody,triceps,1,1,2
+closegrip chestpress,upperBody,"back,chest,shoulders",1,1,2
+cooldown,"upperBody,lowerBody,absCore","back,chest,shoulders,glutes,hamstrings,quads,abdomen",0,0,0
+crossing lunge,lowerBody,"glutes,quads",1,1,2
+crunch,absCore,abdomen,1,1,1
+face row,upperBody,"back,shoulders",1,1,2
+figure 4 squat,lowerBody,"glutes,quads",1,1,2
+floor row,upper,"back,shoulders",1,1,2
+floor squat,lowerBody,"quads,glutes",1,1,1
+floor touch,absCore,abdomen,1,1,1
+flutter kick squat,"lowerBody,absCore","abdomen,obliques,glutes",1,1,2
+fly,upperBody,"chest,back,lats,shoulders",1,1,2
+front squat,lowerBody,"hamstrings,glutes,quads",1,1,1
+hamstring curl,"lowerBody,absCore","hamstrings,abdomen",1,1,1
+hamstring curl hip press,"lowerBody,absCore","hamstrings,abdomen",1,1,1
+hamstring runners,"lowerBody,absCore","abdomen,quads,hamstrings",1,1,1
+high row,upperBody,"back,chest,shoulders",1,1,2
+hip drop,lowerBody,"glutes,quads",1,1,1
+hip henge,lowerBody,"glutes,quads",1,1,1
+hip press,"lowerBody,absCore","glutes,abdomen",1,1,1
+hip raise,"lowerBody,absCore","hamstrings,glutes,abdomen",1,1,1
+hip thrusters,lowerBody,"hamstrings,glutes",1,1,2
+i-fly,upperBody,"chest,back,lats,shoulders",1,1,2
+"jab jab, hook",upperBody,"back,bicep,triceps",1,1,3
+jog,lowerBody,"calves,quads",1,0,3
+jump back,lowerBody,"calves,quads",1,0,3
+jump rope,lowerBody,"calves,quads",1,0,3
+jumping jacks,lowerBody,"calves,quads",1,1,3
+knee walk,lowerBody,"quads,glutes",1,1,3
+kneeling roll out,absCore,"abdomen,back,lats",1,1,2
+low chest press,upperBody,"back,lats,shoulders",1,1,2
+low row,upperBody,"back,lats",1,1,2
+lunges,lowerBody,"quads,glutes,hamstrings",1,1,1
+mid row,upperBody,"back,lats,biceps",1,1,2
+ministeps,lowerBody,"calves,quads",1,1,3
+mountain climbers,absCore,"obliques,abdomen",1,1,3
+one arm row,upperBody,"chest,biceps,triceps,back,shoulders",1,1,2
+one leg chest press,upperBody,"chest,biceps,triceps,back,shoulders",1,1,2
+onearm chestpress,upperBody,"chest,biceps,triceps,back,shoulders",1,1,2
+overhead back extensions,upperBody,"back,lats,shoulders",1,1,1
+overhead squat,"lowerBody,upperBody","glutes,hamstrings,quads,shoulders",1,1,1
+pike,upperBody,"shoulders,triceps",1,1,2
+plank crunch,absCore,"abdomen,obliques",1,1,1
+plank jack,absCore,"obliques,abdomen,abdomen",1,1,2
+plank saw,absCore,"obliques,abdomen",1,1,2
+power pull,upperBody,"chest,back,lats,obliques",1,1,1
+pullover,upperBody,"lats,back,shoulders",1,1,1
+PUMP: chest press,upperBody,"chest,triceps",1,1,2
+pushup,upperBody,"chest,triceps,shoulders",1,1,2
+row,upperBody,"back,shoulders",1,1,1
+saw,upperBody,"back,shoulders",1,1,1
+shoulder press,upperBody,"shoulders,back",1,1,1
+shoulder row,upperBody,"shoulders,back",1,1,2
+side lunge,lowerBody,"quads,glutes,calves",1,1,1
+single arm back row,upperBody,"chest,biceps,triceps",1,1,2
+single leg squat,lowerBody,"quads,glutes",1,1,2
+skater jump,lowerBody,"quads,glutes,hamstrings,calves",1,1,3
+split fly,upperBody,"back,shoulders",1,1,2
+squat,lowerBody,"glutes,quads",1,1,1
+squat jack,lowerBody,quads,1,1,3
+squat jump,lowerBody,quads,1,0,3
+squeeze press,upperBody,"chest,lats,shoulders,back",1,1,1
+stand to plank,absCore,"abdomen,obliques",1,1,2
+standing hip drop,absCore,obliques,1,1,2
+standing roll out,upperBody,"lats,back,shoulders",1,1,2
+stiff leg deadlift,lowerBody,"hamstrings,glutes",1,1,1
+superman,upperBody,back,1,1,1
+t-fly,upperBody,back,1,1,1
+T-Y deltoid fly,upperBody,"shoulders,back,chest",1,1,1
+torso rotation,absCore,obliques,1,1,2
+triceps extensions,upperBody,triceps,1,1,1
+triceps press,upperBody,triceps,1,1,1
+w-fly,upperBody,"back,shoulders",1,1,1
+warmup,"upperBody,lowerBody,absCore","back,chest,shoulders,glutes,hamstrings,quads,abdomen",0,0,0
+y-fly,upperBody,shoulders,3,1,1

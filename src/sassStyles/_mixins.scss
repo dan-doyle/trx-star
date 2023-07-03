@@ -1,0 +1,26 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin centered-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin select-div {
+
+}
+
+@mixin font {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+@mixin font-no-colour {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}

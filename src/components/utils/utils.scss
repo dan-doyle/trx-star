@@ -1,0 +1,126 @@
+@import '../../sassStyles/_mixins.scss';
+
+@media (hover: hover) {
+
+    .select-button:hover {
+        background-color: #eed600;
+    }
+
+    .nav-button:hover {
+        color: darkgray;
+    }
+    
+}
+
+.select-button {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 40vw;
+    min-width: 150px;
+    max-width: 250px;
+    height: 8vh;
+    min-height: 60px;
+    max-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+
+    // &:hover {
+    //     background-color: #eed600;
+    // }
+
+    &:active {
+        background-color: #FFE600;
+    }
+    
+
+    > p {
+        margin: 0px;
+        font-size: 18px;
+        @include font
+    }
+
+    &__icon {
+        font-size: 30px;
+        margin: 0px;
+        color:black;
+        justify-content: flex-end;
+        text-align: center;
+        align-items: flex-end;
+    }
+
+    &__wrapper {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+
+        > p {
+            margin: 0px;
+            font-size: 18px;
+            @include font
+        }
+
+        &-tick {
+            display: flex;
+            width:20%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.selected {
+    background-color: #FFE600;
+}
+
+.unselected {
+    background-color: whitesmoke;
+}
+
+.nav-button{
+    font-size:50px;
+    cursor: pointer;
+    color: gray;
+    animation: fade-in 1s;
+}
+
+.muscle-modal-button {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 18px;
+
+    > p {
+        margin: 0px;
+        font-size: 18px;
+        @include font;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+
+    &__tick {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        margin-right: 2%;
+    }
+}
+
+.tick-icon {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    // margin-right: 2%;
+}

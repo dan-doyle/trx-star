@@ -1,0 +1,361 @@
+@import '../../sassStyles/_mixins.scss';
+@import '../../sassStyles/_variables.scss';
+
+.confirm-modal {
+
+    &__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        @include font;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__button {
+        margin: 0 20px;
+        padding: 6px 20px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 20px;
+        @include font;
+        font-weight: 600;
+        font-size: 16px
+    }
+}
+
+.cancel {
+    background-color: whitesmoke;
+
+    &:hover {
+        background-color: lightgrey;
+    }
+}
+
+.proceed {
+    background-color: #FFE600;
+
+    &:hover {
+        background-color: #eed600;
+    }
+}
+
+.progress-bar{
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.container-rest{
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; // keeps stuff centered
+
+
+    &__message-black1 {
+        color: black;
+        @include font; 
+        font-size: 50px;
+        text-transform: capitalize; // adds uppercases letter
+    }
+
+    &__timer-div{
+        flex-grow: 0.5;
+
+        // in the middle of its div vertically
+        display:grid; 
+        place-items: center;
+    }
+
+    &__message-black2 {
+        color: black;
+        @include font; 
+        font-size: 30px;
+        text-transform: capitalize; // adds uppercases letter
+
+        // Keeps text centered
+        display: grid; 
+        place-items: center;
+
+        &__message-yellow {
+            
+            color: #FFE600;
+            @include font-no-colour; 
+            font-weight: 700;
+            text-align: center;
+            font-size: 50px; 
+            text-transform: capitalize;
+        }
+    }
+
+    &__rest-controls {
+        padding-top: 4%;
+        width: 790px;
+        height: 120px;
+        padding-bottom: 4%;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+        &__icon {
+            width: 90px; // how far apart icons are from each other
+            height: 31.5px;
+
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (max-width: 499px){
+    .progress-bar{
+        padding-bottom: 4%;
+    }
+
+    .container-rest {
+        width: 98vw;
+
+        &__message-black1 {
+            font-size: 40px;
+        }
+
+        &__message-black2 {
+            font-size: 30px;
+
+            &__message-yellow {
+                font-size: 40px;
+            }
+        }
+        
+        &__rest-controls {
+            width: 100%;
+            padding-bottom: 6%;
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 649px) {
+    .container-rest {
+        width: 80vw;
+
+        &__message-black1 {
+            font-size: 40px;
+        }
+
+        &__message-black2 {
+            font-size: 30px;
+
+            &__message-yellow {
+                font-size: 40px;
+            }
+        }
+
+        &__rest-controls{
+            width: 100%;
+            
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+    .container-rest {
+        width: 80vw;
+
+        &__message-black1 {
+            font-size: 40px;
+        }
+
+        &__message-black2 {
+            font-size: 30px;
+
+            &__message-yellow {
+                font-size: 40px;
+            }
+        }
+        &__rest-controls{
+            width: 100%;
+            
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) { // make the youtube player small if the screen is particularily large
+    .container-rest {
+        width: 55vw;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    color: #FFE600;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    background: silver;
+    display: flex;
+    flex:4;
+    width: 30vw;
+    height: 30vw; 
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    @include font-no-colour; 
+    font-size: 60px; 
+}
+
+.timer {
+    flex:10; 
+}
+
+.progress-bar-container {
+    height: 30px;
+    width: 100%;
+    background-color: #e0e0de;
+    // border-radius: 50px;
+}
+
+
+.filler{
+    height: 100%;
+    background-color: #FFE600;
+    // border-radius: inherit;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    line-height: 2;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.container-settings{
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    &__message1 {
+        color: black;
+        @include font; 
+        font-size: 50px;
+        text-transform: capitalize; // adds uppercases letter
+        
+        // For sets
+        display:grid; 
+        place-items: center;
+        text-align: center;
+
+        &__sets{
+            color: #a15050c2; // change for import variable 
+            @include font; 
+            font-size: 25px;
+            text-transform: none;
+            padding-bottom: 1%;
+        }
+    }
+
+    &__youtube-controls {
+        padding-top: 4%;
+        align-self: center; // keeps it centered
+        width: 790px;
+        height: 120px;
+        padding-bottom: 4%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+        &__icon {
+            width: 90px; // how far apart icons are from each other
+            height: 31.5px;
+
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (max-width: 499px){ 
+    .progress-bar{
+        padding-bottom: 4%;
+    }
+
+    .container-settings {
+        width: 98vw;
+
+        &__message1 {
+            font-size: 40px;
+        }
+        &__youtube-controls {
+            width: 100%;
+            padding-bottom: 6%;
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 649px) {
+    .container-settings {
+        width: 80vw;
+
+        &__message1 {
+            font-size: 45px;
+        }
+
+        &__youtube-controls{
+            width: 100%;
+            
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+    .container-settings {
+        width: 80vw;
+
+        &__message1 {
+            font-size: 45px;
+        }
+        &__youtube-controls{
+            width: 100%;
+            
+            &__icon {
+                width: 70px; // how far apart icons are from each other
+                height: 31.5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) { // make the youtube player small if the screen is particularily large
+    .container-settings {
+        width: 55vw;
+    }
+}

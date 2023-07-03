@@ -1,0 +1,245 @@
+@import '../../sassStyles/_mixins.scss';
+@import '../../sassStyles/variables';
+
+.welcome {
+    &__img-container {
+        display: grid; 
+        height: 90vh; 
+        justify-content: center;
+        padding-left:0;
+        text-align: center;
+        place-items: center;
+        align-items: center;
+    }
+    &__img-ul {
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+        padding:0;
+        // padding-bottom: 0px; 
+    }
+
+    &__img {
+        
+        // padding-left: 15px;
+        width: 10rem;
+        height: 10rem;
+        // padding-bottom: 5%;
+    }
+
+    @media (min-width: 501px) and (max-width: 768px) {
+        &__img {
+            width: 12rem;
+            height: 12rem;
+        }
+    }
+      
+    @media (min-width: 769px) {
+        &__img {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    &__button {
+        background-color: $primary-colour;
+        display:flex;
+        @include font;
+        width: 200px;
+        height: 4.5rem;
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 3px solid $border-lining-colour;
+        border-radius: 20px;          
+    }
+
+
+    @media (min-width: 501px) and (max-width: 768px) {
+        &__button {
+            width: 260px;
+            height: 5.5rem;
+            font-size: 1.5rem;
+        }
+        }
+        
+        @media (min-width: 769px) {
+        &__button {
+            width: 320px;
+            height: 6rem;
+            font-size: 2rem;
+        }
+        }
+
+    &__button:hover{
+        background: #f1d901;
+    }
+
+    &__loadbutton {
+        @include font;
+        font-size: 1rem;
+        width: 160px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 24px;
+        background-color: #f0f0f0;
+
+        &:hover {
+            background-color: lightgray;
+        }
+
+        &:disabled{
+
+            color: darkgray;
+
+            &:hover {
+                background-color: #f0f0f0;
+                cursor: auto;
+            }
+        }
+    }
+
+    &__load-button-div{
+        display:flex;
+        justify-content: center;
+    }
+
+    &__load-button-wrapper {
+        display: flex;
+        width:50px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1%;
+    }
+
+    &__info-icon {
+        color: grey;
+        font-size: 25px;
+    }
+
+    &__error {
+        @include font;
+        font-weight: 600;
+        font-size: 1rem;
+        color: red;
+        margin: 0;
+        min-height: 1rem;
+        opacity: 0;
+    }
+
+    &__aboutButton {
+        background-color: whitesmoke;
+        display:flex;
+        @include font;
+        color:dimgray;
+        width: 4.5rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 2px solid grey;
+        border-radius: 20px;          
+    }
+
+    &__aboutPopover {
+        max-width: 80%;
+        text-align: center;
+    }
+
+}
+
+.load-modal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: space-around;
+
+    &__button {
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 6px;
+        background-color: #f0f0f0;
+        padding: 0px 0px;
+        cursor: default;
+        transition: width 0.2s ease-in;
+
+        &:has(.load-modal__button__playlist:hover) {
+            background-color: lightgray;
+            width: 92%;
+            transition: width 0.2s ease-out;
+        }
+
+        &__playlist {
+
+            @include font;
+            border: 0px;
+            font-size: 1rem;
+            text-align: left;
+            padding: 4px 12px;
+            margin: 0px 0px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background-color: transparent;
+            flex-grow: 1;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lightgray;
+            }
+
+        }
+
+        &__delete{
+            margin: 4px 12px;
+            flex-grow: 0;
+            cursor: pointer;
+            opacity: 0.5;
+            transition: opacity 0.1s;
+
+            &:hover {
+                opacity: 1;
+                transition: opacity 0.1s;
+            }
+        }
+
+    }
+
+    &__close {
+        @include font;
+            font-size: 1rem;
+            border-radius: 20px;
+            margin: 0px 0px;
+            padding: 4px 12px;
+            background-color: $primary-colour;
+    
+            &:hover {
+                background-color: #f1d901;
+            }
+    }
+
+}

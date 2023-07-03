@@ -1,0 +1,3973 @@
+{
+  "name": "ExerciseDatabase",
+  "version": 1,
+  "tables": [
+    {
+      "name": "exercises",
+      "keyPath": "exercise_name",
+      "indexes": [
+        {
+          "name": "muscle_group",
+          "keyPath": "muscle_group",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "muscle_type",
+          "keyPath": "muscle_type",
+          "unique": false,
+          "multientry": true
+        },
+        {
+          "name": "position",
+          "keyPath": "position",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "focus",
+          "keyPath": "focus",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "intensity",
+          "keyPath": "intensity",
+          "unique": false,
+          "multientry": false
+        }
+      ],
+      "data": [
+        {
+          "exercise_name": "assisted lunge",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes",
+            "calves"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "assisted sit up",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "back lunge",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "balance lunges",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "abdomen",
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "balance lunges hop",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "bent leg raise",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen",
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "biceps clutch",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "biceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "biceps curl",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "biceps",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "biceps+triceps",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "biceps",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "boxing",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "biceps"
+          ],
+          "position": 1,
+          "focus": 0,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "chest fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "chest press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "chest press + reach out",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "triceps",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "close grip triceps press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "closegrip chestpress",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "chest",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "cooldown",
+          "muscle_group": "upperBody,lowerBody,absCore",
+          "muscle_type": [
+            "back",
+            "chest",
+            "shoulders",
+            "glutes",
+            "hamstrings",
+            "quads",
+            "abdomen"
+          ],
+          "position": 0,
+          "focus": 1,
+          "intensity": 0
+        },
+        {
+          "exercise_name": "crossing lunge",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "crunch",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "face row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "figure 4 squat",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "floor row",
+          "muscle_group": "upper",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "floor squat",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "floor touch",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "flutter kick squat",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "abdomen",
+            "obliques",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "back",
+            "lats",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "front squat",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "hamstrings",
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hamstring curl",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "hamstrings",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hamstring curl hip press",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "hamstrings",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hamstring runners",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "abdomen",
+            "quads",
+            "hamstrings"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "high row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "chest",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "hip drop",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hip hinge",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hip press",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "glutes",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hip raise",
+          "muscle_group": "lowerBody,absCore",
+          "muscle_type": [
+            "hamstrings",
+            "glutes",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "hip thrusters",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "hamstrings",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "i-fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "back",
+            "lats",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "jab jab, hook",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "bicep",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "jog",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "calves",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 0,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "jump back",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "calves",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 0,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "jump rope",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "calves",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 0,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "jumping jacks",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "calves",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "knee walk",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "kneeling roll out",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen",
+            "back",
+            "lats"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "low chest press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "lats",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "low row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "lats"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "lunges",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes",
+            "hamstrings"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "mid row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "lats",
+            "biceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "ministeps",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "calves",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "mountain climbers",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "obliques",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "one arm row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "biceps",
+            "triceps",
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "one leg chest press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "biceps",
+            "triceps",
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "onearm chestpress",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "biceps",
+            "triceps",
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "overhead back extensions",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "lats",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "overhead squat",
+          "muscle_group": "lowerBody,upperBody",
+          "muscle_type": [
+            "glutes",
+            "hamstrings",
+            "quads",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "pike",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "shoulders",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "plank crunch",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen",
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "plank jack",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "obliques",
+            "abdomen",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "plank saw",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "obliques",
+            "abdomen"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "power pull",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "back",
+            "lats",
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "pullover",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "lats",
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "PUMP: chest press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "pushup",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "triceps",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "saw",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "shoulder press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "shoulders",
+            "back"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "shoulder row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "shoulders",
+            "back"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "side lunge",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes",
+            "calves"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "single arm back row",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "biceps",
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "single leg squat",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "skater jump",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads",
+            "glutes",
+            "hamstrings",
+            "calves"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "split fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "squat",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "glutes",
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "squat jack",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "squat jump",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "quads"
+          ],
+          "position": 1,
+          "focus": 0,
+          "intensity": 3
+        },
+        {
+          "exercise_name": "squeeze press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "chest",
+            "lats",
+            "shoulders",
+            "back"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "stand to plank",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "abdomen",
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "standing hip drop",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "standing roll out",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "lats",
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "stiff leg deadlift",
+          "muscle_group": "lowerBody",
+          "muscle_type": [
+            "hamstrings",
+            "glutes"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "superman",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "t-fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "T-Y deltoid fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "shoulders",
+            "back",
+            "chest"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "torso rotation",
+          "muscle_group": "absCore",
+          "muscle_type": [
+            "obliques"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 2
+        },
+        {
+          "exercise_name": "triceps extensions",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "triceps press",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "triceps"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "w-fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "back",
+            "shoulders"
+          ],
+          "position": 1,
+          "focus": 1,
+          "intensity": 1
+        },
+        {
+          "exercise_name": "warmup",
+          "muscle_group": "upperBody,lowerBody,absCore",
+          "muscle_type": [
+            "back",
+            "chest",
+            "shoulders",
+            "glutes",
+            "hamstrings",
+            "quads",
+            "abdomen"
+          ],
+          "position": 0,
+          "focus": 1,
+          "intensity": 0
+        },
+        {
+          "exercise_name": "y-fly",
+          "muscle_group": "upperBody",
+          "muscle_type": [
+            "shoulders"
+          ],
+          "position": 3,
+          "focus": 1,
+          "intensity": 1
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "keyPath": "video_ID",
+      "indexes": [
+        {
+          "name": "URL",
+          "keyPath": "URL",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "complexity",
+          "keyPath": "complexity",
+          "unique": false,
+          "multientry": false
+        }
+      ],
+      "data": [
+        {
+          "video_ID": 0,
+          "URL": "https://www.youtube.com/watch?v=4ZR25UheGpA&list=PLRJeTsJZogdIfXTOyYq-pu0tSsCojXR5i&index=1",
+          "complexity": 0
+        },
+        {
+          "video_ID": 1,
+          "URL": "https://www.youtube.com/watch?v=wsJXCBiNONo&list=PLRJeTsJZogdIfXTOyYq-pu0tSsCojXR5i&index=2",
+          "complexity": 0
+        },
+        {
+          "video_ID": 2,
+          "URL": "https://www.youtube.com/watch?v=VUwf4EMnVYA&list=PLRJeTsJZogdIfXTOyYq-pu0tSsCojXR5i&index=3",
+          "complexity": 0
+        },
+        {
+          "video_ID": 91,
+          "URL": "https://www.youtube.com/watch?v=2MwmfzwoEFI&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=20",
+          "complexity": 2
+        },
+        {
+          "video_ID": 92,
+          "URL": "https://www.youtube.com/watch?v=3ThgsiQOA6s&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=21",
+          "complexity": 2
+        },
+        {
+          "video_ID": 93,
+          "URL": "https://www.youtube.com/watch?v=Ajg3G48Otqk&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=22",
+          "complexity": 2
+        },
+        {
+          "video_ID": 36,
+          "URL": "https://www.youtube.com/watch?v=hvV3FZdCF5U&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8",
+          "complexity": 1
+        },
+        {
+          "video_ID": 37,
+          "URL": "https://www.youtube.com/watch?v=ZdavLZLCHPw&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=2",
+          "complexity": 1
+        },
+        {
+          "video_ID": 38,
+          "URL": "https://www.youtube.com/watch?v=g0AuyqrUjmI&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=3",
+          "complexity": 1
+        },
+        {
+          "video_ID": 96,
+          "URL": "https://www.youtube.com/watch?v=TF30Jccax1s&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=25",
+          "complexity": 2
+        },
+        {
+          "video_ID": 94,
+          "URL": "https://www.youtube.com/watch?v=FSzxYkl5CtY&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=23",
+          "complexity": 2
+        },
+        {
+          "video_ID": 95,
+          "URL": "https://www.youtube.com/watch?v=Oqj-q4K0Ri8&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=24",
+          "complexity": 2
+        },
+        {
+          "video_ID": 54,
+          "URL": "https://www.youtube.com/watch?v=TLcA5KXeXxM&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=19",
+          "complexity": 1
+        },
+        {
+          "video_ID": 55,
+          "URL": "https://www.youtube.com/watch?v=ha3tzsugoA8&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=20",
+          "complexity": 1
+        },
+        {
+          "video_ID": 56,
+          "URL": "https://www.youtube.com/watch?v=UdTlg6OmwF8&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=21",
+          "complexity": 1
+        },
+        {
+          "video_ID": 57,
+          "URL": "https://www.youtube.com/watch?v=hJJ_d_pSJVI&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=22",
+          "complexity": 1
+        },
+        {
+          "video_ID": 58,
+          "URL": "https://www.youtube.com/watch?v=rvxcC20WHJg&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=23",
+          "complexity": 1
+        },
+        {
+          "video_ID": 39,
+          "URL": "https://www.youtube.com/watch?v=JkJBg7rINx0&list=PLRJeTsJZogdJlNt02s0oLqH96vf7ANov8&index=4",
+          "complexity": 1
+        },
+        {
+          "video_ID": 72,
+          "URL": "https://www.youtube.com/watch?v=07syRCRzVd4&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-",
+          "complexity": 2
+        },
+        {
+          "video_ID": 73,
+          "URL": "https://www.youtube.com/watch?v=pxOaWD67_Sg&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=2",
+          "complexity": 2
+        },
+        {
+          "video_ID": 74,
+          "URL": "https://www.youtube.com/watch?v=InPWVnFNle0&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=3",
+          "complexity": 2
+        },
+        {
+          "video_ID": 75,
+          "URL": "https://www.youtube.com/watch?v=DDkkw3ugHYs&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=4",
+          "complexity": 2
+        },
+        {
+          "video_ID": 76,
+          "URL": "https://www.youtube.com/watch?v=KbWVbOPnJ40&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=5",
+          "complexity": 2
+        },
+        {
+          "video_ID": 77,
+          "URL": "https://www.youtube.com/watch?v=3qbjA8HTVY8&list=PLRJeTsJZogdIwclPTsjBG0ba3vmA3fi2-&index=6",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "name": "clip",
+      "keyPath": "clip_ID",
+      "indexes": [
+        {
+          "name": "video_ID",
+          "keyPath": "video_ID",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "start_sec",
+          "keyPath": "start_sec",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "end_sec",
+          "keyPath": "end_sec",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "duration",
+          "keyPath": "duration",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "exercise_name",
+          "keyPath": "exercise_name",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "start_time",
+          "keyPath": "start_time",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "end_time",
+          "keyPath": "end_time",
+          "unique": false,
+          "multientry": false
+        },
+        {
+          "name": "total_time",
+          "keyPath": "total_time",
+          "unique": false,
+          "multientry": false
+        }
+      ],
+      "data": [
+        {
+          "clip_ID": 0,
+          "video_ID": 0,
+          "start_sec": 41,
+          "end_sec": 347,
+          "duration": 306,
+          "exercise_name": "warmup",
+          "start_time": "00:00:41",
+          "end_time": "00:05:47",
+          "total_time": "00:05:06"
+        },
+        {
+          "clip_ID": 1,
+          "video_ID": 0,
+          "start_sec": 388,
+          "end_sec": 430,
+          "duration": 42,
+          "exercise_name": "squat",
+          "start_time": "00:06:28",
+          "end_time": "00:07:10",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 2,
+          "video_ID": 0,
+          "start_sec": 570,
+          "end_sec": 610,
+          "duration": 40,
+          "exercise_name": "balance lunges",
+          "start_time": "00:09:30",
+          "end_time": "00:10:10",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 3,
+          "video_ID": 0,
+          "start_sec": 748,
+          "end_sec": 789,
+          "duration": 41,
+          "exercise_name": "chest press",
+          "start_time": "00:12:28",
+          "end_time": "00:13:09",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 4,
+          "video_ID": 0,
+          "start_sec": 928,
+          "end_sec": 968,
+          "duration": 40,
+          "exercise_name": "overhead back extensions",
+          "start_time": "00:15:28",
+          "end_time": "00:16:08",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 5,
+          "video_ID": 0,
+          "start_sec": 1109,
+          "end_sec": 1150,
+          "duration": 41,
+          "exercise_name": "mid row",
+          "start_time": "00:18:29",
+          "end_time": "00:19:10",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 6,
+          "video_ID": 0,
+          "start_sec": 1334,
+          "end_sec": 1374,
+          "duration": 40,
+          "exercise_name": "kneeling roll out",
+          "start_time": "00:22:14",
+          "end_time": "00:22:54",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 7,
+          "video_ID": 0,
+          "start_sec": 1514,
+          "end_sec": 1555,
+          "duration": 41,
+          "exercise_name": "biceps curl",
+          "start_time": "00:25:14",
+          "end_time": "00:25:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 8,
+          "video_ID": 0,
+          "start_sec": 1695,
+          "end_sec": 1735,
+          "duration": 40,
+          "exercise_name": "hamstring curl",
+          "start_time": "00:28:15",
+          "end_time": "00:28:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 9,
+          "video_ID": 0,
+          "start_sec": 1874,
+          "end_sec": 1915,
+          "duration": 41,
+          "exercise_name": "crunch",
+          "start_time": "00:31:14",
+          "end_time": "00:31:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 10,
+          "video_ID": 0,
+          "start_sec": 2053,
+          "end_sec": 2095,
+          "duration": 42,
+          "exercise_name": "standing hip drop",
+          "start_time": "00:34:13",
+          "end_time": "00:34:55",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 11,
+          "video_ID": 1,
+          "start_sec": 47,
+          "end_sec": 344,
+          "duration": 297,
+          "exercise_name": "warmup",
+          "start_time": "00:00:47",
+          "end_time": "00:05:44",
+          "total_time": "00:04:57"
+        },
+        {
+          "clip_ID": 12,
+          "video_ID": 1,
+          "start_sec": 390,
+          "end_sec": 430,
+          "duration": 40,
+          "exercise_name": "chest press",
+          "start_time": "00:06:30",
+          "end_time": "00:07:10",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 13,
+          "video_ID": 1,
+          "start_sec": 569,
+          "end_sec": 612,
+          "duration": 43,
+          "exercise_name": "chest fly",
+          "start_time": "00:09:29",
+          "end_time": "00:10:12",
+          "total_time": "00:00:43"
+        },
+        {
+          "clip_ID": 14,
+          "video_ID": 1,
+          "start_sec": 749,
+          "end_sec": 790,
+          "duration": 41,
+          "exercise_name": "low row",
+          "start_time": "00:12:29",
+          "end_time": "00:13:10",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 15,
+          "video_ID": 1,
+          "start_sec": 930,
+          "end_sec": 970,
+          "duration": 40,
+          "exercise_name": "t-fly",
+          "start_time": "00:15:30",
+          "end_time": "00:16:10",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 16,
+          "video_ID": 1,
+          "start_sec": 1169,
+          "end_sec": 1210,
+          "duration": 41,
+          "exercise_name": "split fly",
+          "start_time": "00:19:29",
+          "end_time": "00:20:10",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 17,
+          "video_ID": 1,
+          "start_sec": 1334,
+          "end_sec": 1375,
+          "duration": 41,
+          "exercise_name": "triceps press",
+          "start_time": "00:22:14",
+          "end_time": "00:22:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 18,
+          "video_ID": 1,
+          "start_sec": 1633,
+          "end_sec": 1677,
+          "duration": 44,
+          "exercise_name": "w-fly",
+          "start_time": "00:27:13",
+          "end_time": "00:27:57",
+          "total_time": "00:00:44"
+        },
+        {
+          "clip_ID": 19,
+          "video_ID": 1,
+          "start_sec": 1696,
+          "end_sec": 1736,
+          "duration": 40,
+          "exercise_name": "biceps curl",
+          "start_time": "00:28:16",
+          "end_time": "00:28:56",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 20,
+          "video_ID": 1,
+          "start_sec": 1996,
+          "end_sec": 2037,
+          "duration": 41,
+          "exercise_name": "face row",
+          "start_time": "00:33:16",
+          "end_time": "00:33:57",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 21,
+          "video_ID": 1,
+          "start_sec": 2115,
+          "end_sec": 2156,
+          "duration": 41,
+          "exercise_name": "biceps clutch",
+          "start_time": "00:35:15",
+          "end_time": "00:35:56",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 22,
+          "video_ID": 2,
+          "start_sec": 46,
+          "end_sec": 345,
+          "duration": 299,
+          "exercise_name": "warmup",
+          "start_time": "00:00:46",
+          "end_time": "00:05:45",
+          "total_time": "00:04:59"
+        },
+        {
+          "clip_ID": 23,
+          "video_ID": 2,
+          "start_sec": 390,
+          "end_sec": 429,
+          "duration": 39,
+          "exercise_name": "squat",
+          "start_time": "00:06:30",
+          "end_time": "00:07:09",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 24,
+          "video_ID": 2,
+          "start_sec": 568,
+          "end_sec": 609,
+          "duration": 41,
+          "exercise_name": "assisted lunge",
+          "start_time": "00:09:28",
+          "end_time": "00:10:09",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 25,
+          "video_ID": 2,
+          "start_sec": 749,
+          "end_sec": 791,
+          "duration": 42,
+          "exercise_name": "side lunge",
+          "start_time": "00:12:29",
+          "end_time": "00:13:11",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 26,
+          "video_ID": 2,
+          "start_sec": 930,
+          "end_sec": 970,
+          "duration": 40,
+          "exercise_name": "hamstring curl",
+          "start_time": "00:15:30",
+          "end_time": "00:16:10",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 27,
+          "video_ID": 2,
+          "start_sec": 1110,
+          "end_sec": 1150,
+          "duration": 40,
+          "exercise_name": "hip press",
+          "start_time": "00:18:30",
+          "end_time": "00:19:10",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 28,
+          "video_ID": 2,
+          "start_sec": 1335,
+          "end_sec": 1376,
+          "duration": 41,
+          "exercise_name": "overhead back extensions",
+          "start_time": "00:22:15",
+          "end_time": "00:22:56",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 29,
+          "video_ID": 2,
+          "start_sec": 1515,
+          "end_sec": 1555,
+          "duration": 40,
+          "exercise_name": "torso rotation",
+          "start_time": "00:25:15",
+          "end_time": "00:25:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 30,
+          "video_ID": 2,
+          "start_sec": 1754,
+          "end_sec": 1794,
+          "duration": 40,
+          "exercise_name": "kneeling roll out",
+          "start_time": "00:29:14",
+          "end_time": "00:29:54",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 31,
+          "video_ID": 2,
+          "start_sec": 1875,
+          "end_sec": 1915,
+          "duration": 40,
+          "exercise_name": "assisted sit up",
+          "start_time": "00:31:15",
+          "end_time": "00:31:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 32,
+          "video_ID": 2,
+          "start_sec": 2115,
+          "end_sec": 2155,
+          "duration": 40,
+          "exercise_name": "bent leg raise",
+          "start_time": "00:35:15",
+          "end_time": "00:35:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 33,
+          "video_ID": 91,
+          "start_sec": 46,
+          "end_sec": 340,
+          "duration": 294,
+          "exercise_name": "warmup",
+          "start_time": "00:00:46",
+          "end_time": "00:05:40",
+          "total_time": "00:04:54"
+        },
+        {
+          "clip_ID": 34,
+          "video_ID": 91,
+          "start_sec": 340,
+          "end_sec": 380,
+          "duration": 40,
+          "exercise_name": "pushup",
+          "start_time": "00:05:40",
+          "end_time": "00:06:20",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 35,
+          "video_ID": 91,
+          "start_sec": 860,
+          "end_sec": 944,
+          "duration": 84,
+          "exercise_name": "ministeps",
+          "start_time": "00:14:20",
+          "end_time": "00:15:44",
+          "total_time": "00:01:24"
+        },
+        {
+          "clip_ID": 36,
+          "video_ID": 91,
+          "start_sec": 524,
+          "end_sec": 558,
+          "duration": 34,
+          "exercise_name": "chest press",
+          "start_time": "00:08:44",
+          "end_time": "00:09:18",
+          "total_time": "00:00:34"
+        },
+        {
+          "clip_ID": 37,
+          "video_ID": 91,
+          "start_sec": 707,
+          "end_sec": 740,
+          "duration": 33,
+          "exercise_name": "fly",
+          "start_time": "00:11:47",
+          "end_time": "00:12:20",
+          "total_time": "00:00:33"
+        },
+        {
+          "clip_ID": 38,
+          "video_ID": 91,
+          "start_sec": 976,
+          "end_sec": 1016,
+          "duration": 40,
+          "exercise_name": "onearm chestpress",
+          "start_time": "00:16:16",
+          "end_time": "00:16:56",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 39,
+          "video_ID": 91,
+          "start_sec": 1156,
+          "end_sec": 1186,
+          "duration": 30,
+          "exercise_name": "closegrip chestpress",
+          "start_time": "00:19:16",
+          "end_time": "00:19:46",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 40,
+          "video_ID": 91,
+          "start_sec": 1338,
+          "end_sec": 1373,
+          "duration": 35,
+          "exercise_name": "pullover",
+          "start_time": "00:22:18",
+          "end_time": "00:22:53",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 41,
+          "video_ID": 91,
+          "start_sec": 1521,
+          "end_sec": 1557,
+          "duration": 36,
+          "exercise_name": "squeeze press",
+          "start_time": "00:25:21",
+          "end_time": "00:25:57",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 42,
+          "video_ID": 91,
+          "start_sec": 1704,
+          "end_sec": 1836,
+          "duration": 132,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:24",
+          "end_time": "00:30:36",
+          "total_time": "00:02:12"
+        },
+        {
+          "clip_ID": 43,
+          "video_ID": 92,
+          "start_sec": 46,
+          "end_sec": 340,
+          "duration": 294,
+          "exercise_name": "warmup",
+          "start_time": "00:00:46",
+          "end_time": "00:05:40",
+          "total_time": "00:04:54"
+        },
+        {
+          "clip_ID": 44,
+          "video_ID": 92,
+          "start_sec": 345,
+          "end_sec": 386,
+          "duration": 41,
+          "exercise_name": "mid row",
+          "start_time": "00:05:45",
+          "end_time": "00:06:26",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 45,
+          "video_ID": 92,
+          "start_sec": 524,
+          "end_sec": 564,
+          "duration": 40,
+          "exercise_name": "power pull",
+          "start_time": "00:08:44",
+          "end_time": "00:09:24",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 46,
+          "video_ID": 92,
+          "start_sec": 768,
+          "end_sec": 804,
+          "duration": 36,
+          "exercise_name": "shoulder row",
+          "start_time": "00:12:48",
+          "end_time": "00:13:24",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 47,
+          "video_ID": 92,
+          "start_sec": 866,
+          "end_sec": 944,
+          "duration": 78,
+          "exercise_name": "jump rope",
+          "start_time": "00:14:26",
+          "end_time": "00:15:44",
+          "total_time": "00:01:18"
+        },
+        {
+          "clip_ID": 48,
+          "video_ID": 92,
+          "start_sec": 976,
+          "end_sec": 1015,
+          "duration": 39,
+          "exercise_name": "i-fly",
+          "start_time": "00:16:16",
+          "end_time": "00:16:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 49,
+          "video_ID": 92,
+          "start_sec": 1156,
+          "end_sec": 1195,
+          "duration": 39,
+          "exercise_name": "split fly",
+          "start_time": "00:19:16",
+          "end_time": "00:19:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 50,
+          "video_ID": 92,
+          "start_sec": 1338,
+          "end_sec": 1375,
+          "duration": 37,
+          "exercise_name": "biceps curl",
+          "start_time": "00:22:18",
+          "end_time": "00:22:55",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 51,
+          "video_ID": 92,
+          "start_sec": 1518,
+          "end_sec": 1555,
+          "duration": 37,
+          "exercise_name": "triceps press",
+          "start_time": "00:25:18",
+          "end_time": "00:25:55",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 52,
+          "video_ID": 93,
+          "start_sec": 51,
+          "end_sec": 341,
+          "duration": 290,
+          "exercise_name": "warmup",
+          "start_time": "00:00:51",
+          "end_time": "00:05:41",
+          "total_time": "00:04:50"
+        },
+        {
+          "clip_ID": 53,
+          "video_ID": 93,
+          "start_sec": 345,
+          "end_sec": 386,
+          "duration": 41,
+          "exercise_name": "y-fly",
+          "start_time": "00:05:45",
+          "end_time": "00:06:26",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 54,
+          "video_ID": 93,
+          "start_sec": 706,
+          "end_sec": 745,
+          "duration": 39,
+          "exercise_name": "torso rotation",
+          "start_time": "00:11:46",
+          "end_time": "00:12:25",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 55,
+          "video_ID": 93,
+          "start_sec": 866,
+          "end_sec": 944,
+          "duration": 78,
+          "exercise_name": "jog",
+          "start_time": "00:14:26",
+          "end_time": "00:15:44",
+          "total_time": "00:01:18"
+        },
+        {
+          "clip_ID": 56,
+          "video_ID": 93,
+          "start_sec": 1156,
+          "end_sec": 1195,
+          "duration": 39,
+          "exercise_name": "w-fly",
+          "start_time": "00:19:16",
+          "end_time": "00:19:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 57,
+          "video_ID": 93,
+          "start_sec": 1338,
+          "end_sec": 1376,
+          "duration": 38,
+          "exercise_name": "split fly",
+          "start_time": "00:22:18",
+          "end_time": "00:22:56",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 58,
+          "video_ID": 93,
+          "start_sec": 1516,
+          "end_sec": 1554,
+          "duration": 38,
+          "exercise_name": "face row",
+          "start_time": "00:25:16",
+          "end_time": "00:25:54",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 59,
+          "video_ID": 93,
+          "start_sec": 1704,
+          "end_sec": 1844,
+          "duration": 140,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:24",
+          "end_time": "00:30:44",
+          "total_time": "00:02:20"
+        },
+        {
+          "clip_ID": 60,
+          "video_ID": 92,
+          "start_sec": 1710,
+          "end_sec": 1843,
+          "duration": 133,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:30",
+          "end_time": "00:30:43",
+          "total_time": "00:02:13"
+        },
+        {
+          "clip_ID": 61,
+          "video_ID": 36,
+          "start_sec": 45,
+          "end_sec": 643,
+          "duration": 598,
+          "exercise_name": "warmup",
+          "start_time": "00:00:45",
+          "end_time": "00:10:43",
+          "total_time": "00:09:58"
+        },
+        {
+          "clip_ID": 62,
+          "video_ID": 36,
+          "start_sec": 675,
+          "end_sec": 704,
+          "duration": 29,
+          "exercise_name": "one leg chest press",
+          "start_time": "00:11:15",
+          "end_time": "00:11:44",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 63,
+          "video_ID": 36,
+          "start_sec": 854,
+          "end_sec": 884,
+          "duration": 30,
+          "exercise_name": "one arm row",
+          "start_time": "00:14:14",
+          "end_time": "00:14:44",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 64,
+          "video_ID": 36,
+          "start_sec": 1034,
+          "end_sec": 1064,
+          "duration": 30,
+          "exercise_name": "y-fly",
+          "start_time": "00:17:14",
+          "end_time": "00:17:44",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 65,
+          "video_ID": 36,
+          "start_sec": 1211,
+          "end_sec": 1246,
+          "duration": 35,
+          "exercise_name": "power pull",
+          "start_time": "00:20:11",
+          "end_time": "00:20:46",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 66,
+          "video_ID": 36,
+          "start_sec": 705,
+          "end_sec": 729,
+          "duration": 24,
+          "exercise_name": "jumping jacks",
+          "start_time": "00:11:45",
+          "end_time": "00:12:09",
+          "total_time": "00:00:24"
+        },
+        {
+          "clip_ID": 67,
+          "video_ID": 36,
+          "start_sec": 1423,
+          "end_sec": 1457,
+          "duration": 34,
+          "exercise_name": "single leg squat",
+          "start_time": "00:23:43",
+          "end_time": "00:24:17",
+          "total_time": "00:00:34"
+        },
+        {
+          "clip_ID": 68,
+          "video_ID": 36,
+          "start_sec": 1603,
+          "end_sec": 1634,
+          "duration": 31,
+          "exercise_name": "floor touch",
+          "start_time": "00:26:43",
+          "end_time": "00:27:14",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 69,
+          "video_ID": 36,
+          "start_sec": 1785,
+          "end_sec": 1814,
+          "duration": 29,
+          "exercise_name": "balance lunges hop",
+          "start_time": "00:29:45",
+          "end_time": "00:30:14",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 70,
+          "video_ID": 36,
+          "start_sec": 1965,
+          "end_sec": 1996,
+          "duration": 31,
+          "exercise_name": "hamstring curl hip press",
+          "start_time": "00:32:45",
+          "end_time": "00:33:16",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 71,
+          "video_ID": 36,
+          "start_sec": 1457,
+          "end_sec": 1474,
+          "duration": 17,
+          "exercise_name": "jog",
+          "start_time": "00:24:17",
+          "end_time": "00:24:34",
+          "total_time": "00:00:17"
+        },
+        {
+          "clip_ID": 72,
+          "video_ID": 36,
+          "start_sec": 2176,
+          "end_sec": 2204,
+          "duration": 28,
+          "exercise_name": "standing roll out",
+          "start_time": "00:36:16",
+          "end_time": "00:36:44",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 73,
+          "video_ID": 36,
+          "start_sec": 2302,
+          "end_sec": 2325,
+          "duration": 23,
+          "exercise_name": "mountain climbers",
+          "start_time": "00:38:22",
+          "end_time": "00:38:45",
+          "total_time": "00:00:23"
+        },
+        {
+          "clip_ID": 74,
+          "video_ID": 36,
+          "start_sec": 2417,
+          "end_sec": 2444,
+          "duration": 27,
+          "exercise_name": "saw",
+          "start_time": "00:40:17",
+          "end_time": "00:40:44",
+          "total_time": "00:00:27"
+        },
+        {
+          "clip_ID": 75,
+          "video_ID": 36,
+          "start_sec": 2206,
+          "end_sec": 2227,
+          "duration": 21,
+          "exercise_name": "jab jab, hook",
+          "start_time": "00:36:46",
+          "end_time": "00:37:07",
+          "total_time": "00:00:21"
+        },
+        {
+          "clip_ID": 76,
+          "video_ID": 37,
+          "start_sec": 47,
+          "end_sec": 645,
+          "duration": 598,
+          "exercise_name": "warmup",
+          "start_time": "00:00:47",
+          "end_time": "00:10:45",
+          "total_time": "00:09:58"
+        },
+        {
+          "clip_ID": 77,
+          "video_ID": 37,
+          "start_sec": 680,
+          "end_sec": 717,
+          "duration": 37,
+          "exercise_name": "low chest press",
+          "start_time": "00:11:20",
+          "end_time": "00:11:57",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 78,
+          "video_ID": 37,
+          "start_sec": 855,
+          "end_sec": 894,
+          "duration": 39,
+          "exercise_name": "high row",
+          "start_time": "00:14:15",
+          "end_time": "00:14:54",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 79,
+          "video_ID": 37,
+          "start_sec": 1036,
+          "end_sec": 1075,
+          "duration": 39,
+          "exercise_name": "chest fly",
+          "start_time": "00:17:16",
+          "end_time": "00:17:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 80,
+          "video_ID": 37,
+          "start_sec": 1214,
+          "end_sec": 1255,
+          "duration": 41,
+          "exercise_name": "floor row",
+          "start_time": "00:20:14",
+          "end_time": "00:20:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 81,
+          "video_ID": 37,
+          "start_sec": 1425,
+          "end_sec": 1463,
+          "duration": 38,
+          "exercise_name": "split fly",
+          "start_time": "00:23:45",
+          "end_time": "00:24:23",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 82,
+          "video_ID": 37,
+          "start_sec": 1604,
+          "end_sec": 1643,
+          "duration": 39,
+          "exercise_name": "triceps extensions",
+          "start_time": "00:26:44",
+          "end_time": "00:27:23",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 83,
+          "video_ID": 37,
+          "start_sec": 1788,
+          "end_sec": 1825,
+          "duration": 37,
+          "exercise_name": "biceps clutch",
+          "start_time": "00:29:48",
+          "end_time": "00:30:25",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 84,
+          "video_ID": 37,
+          "start_sec": 1966,
+          "end_sec": 2005,
+          "duration": 39,
+          "exercise_name": "close grip triceps press",
+          "start_time": "00:32:46",
+          "end_time": "00:33:25",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 85,
+          "video_ID": 37,
+          "start_sec": 2176,
+          "end_sec": 2204,
+          "duration": 28,
+          "exercise_name": "PUMP: chest press",
+          "start_time": "00:36:16",
+          "end_time": "00:36:44",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 86,
+          "video_ID": 37,
+          "start_sec": 2295,
+          "end_sec": 2325,
+          "duration": 30,
+          "exercise_name": "row",
+          "start_time": "00:38:15",
+          "end_time": "00:38:45",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 87,
+          "video_ID": 37,
+          "start_sec": 2414,
+          "end_sec": 2444,
+          "duration": 30,
+          "exercise_name": "kneeling roll out",
+          "start_time": "00:40:14",
+          "end_time": "00:40:44",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 88,
+          "video_ID": 38,
+          "start_sec": 46,
+          "end_sec": 642,
+          "duration": 596,
+          "exercise_name": "warmup",
+          "start_time": "00:00:46",
+          "end_time": "00:10:42",
+          "total_time": "00:09:56"
+        },
+        {
+          "clip_ID": 89,
+          "video_ID": 38,
+          "start_sec": 674,
+          "end_sec": 714,
+          "duration": 40,
+          "exercise_name": "squat",
+          "start_time": "00:11:14",
+          "end_time": "00:11:54",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 90,
+          "video_ID": 38,
+          "start_sec": 854,
+          "end_sec": 895,
+          "duration": 41,
+          "exercise_name": "crossing lunge",
+          "start_time": "00:14:14",
+          "end_time": "00:14:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 91,
+          "video_ID": 38,
+          "start_sec": 1035,
+          "end_sec": 1076,
+          "duration": 41,
+          "exercise_name": "stiff leg deadlift",
+          "start_time": "00:17:15",
+          "end_time": "00:17:56",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 92,
+          "video_ID": 38,
+          "start_sec": 1213,
+          "end_sec": 1255,
+          "duration": 42,
+          "exercise_name": "back lunge",
+          "start_time": "00:20:13",
+          "end_time": "00:20:55",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 93,
+          "video_ID": 38,
+          "start_sec": 1427,
+          "end_sec": 1465,
+          "duration": 38,
+          "exercise_name": "hip thrusters",
+          "start_time": "00:23:47",
+          "end_time": "00:24:25",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 94,
+          "video_ID": 38,
+          "start_sec": 1605,
+          "end_sec": 1644,
+          "duration": 39,
+          "exercise_name": "hamstring curl",
+          "start_time": "00:26:45",
+          "end_time": "00:27:24",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 95,
+          "video_ID": 38,
+          "start_sec": 1785,
+          "end_sec": 1824,
+          "duration": 39,
+          "exercise_name": "figure 4 squat",
+          "start_time": "00:29:45",
+          "end_time": "00:30:24",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 96,
+          "video_ID": 38,
+          "start_sec": 1964,
+          "end_sec": 2006,
+          "duration": 42,
+          "exercise_name": "hip hinge",
+          "start_time": "00:32:44",
+          "end_time": "00:33:26",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 97,
+          "video_ID": 38,
+          "start_sec": 2175,
+          "end_sec": 2201,
+          "duration": 26,
+          "exercise_name": "pike",
+          "start_time": "00:36:15",
+          "end_time": "00:36:41",
+          "total_time": "00:00:26"
+        },
+        {
+          "clip_ID": 98,
+          "video_ID": 38,
+          "start_sec": 2295,
+          "end_sec": 2323,
+          "duration": 28,
+          "exercise_name": "hamstring runners",
+          "start_time": "00:38:15",
+          "end_time": "00:38:43",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 99,
+          "video_ID": 38,
+          "start_sec": 2417,
+          "end_sec": 2445,
+          "duration": 28,
+          "exercise_name": "plank jack",
+          "start_time": "00:40:17",
+          "end_time": "00:40:45",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 100,
+          "video_ID": 96,
+          "start_sec": 47,
+          "end_sec": 340,
+          "duration": 293,
+          "exercise_name": "warmup",
+          "start_time": "00:00:47",
+          "end_time": "00:05:40",
+          "total_time": "00:04:53"
+        },
+        {
+          "clip_ID": 101,
+          "video_ID": 96,
+          "start_sec": 348,
+          "end_sec": 383,
+          "duration": 35,
+          "exercise_name": "balance lunges",
+          "start_time": "00:05:48",
+          "end_time": "00:06:23",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 102,
+          "video_ID": 96,
+          "start_sec": 530,
+          "end_sec": 557,
+          "duration": 27,
+          "exercise_name": "hamstring curl",
+          "start_time": "00:08:50",
+          "end_time": "00:09:17",
+          "total_time": "00:00:27"
+        },
+        {
+          "clip_ID": 103,
+          "video_ID": 96,
+          "start_sec": 707,
+          "end_sec": 744,
+          "duration": 37,
+          "exercise_name": "hip raise",
+          "start_time": "00:11:47",
+          "end_time": "00:12:24",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 104,
+          "video_ID": 96,
+          "start_sec": 976,
+          "end_sec": 1013,
+          "duration": 37,
+          "exercise_name": "lunges",
+          "start_time": "00:16:16",
+          "end_time": "00:16:53",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 105,
+          "video_ID": 96,
+          "start_sec": 1155,
+          "end_sec": 1193,
+          "duration": 38,
+          "exercise_name": "stiff leg deadlift",
+          "start_time": "00:19:15",
+          "end_time": "00:19:53",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 106,
+          "video_ID": 96,
+          "start_sec": 1338,
+          "end_sec": 1373,
+          "duration": 35,
+          "exercise_name": "squat jack",
+          "start_time": "00:22:18",
+          "end_time": "00:22:53",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 107,
+          "video_ID": 96,
+          "start_sec": 1518,
+          "end_sec": 1554,
+          "duration": 36,
+          "exercise_name": "knee walk",
+          "start_time": "00:25:18",
+          "end_time": "00:25:54",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 108,
+          "video_ID": 96,
+          "start_sec": 1710,
+          "end_sec": 1840,
+          "duration": 130,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:30",
+          "end_time": "00:30:40",
+          "total_time": "00:02:10"
+        },
+        {
+          "clip_ID": 109,
+          "video_ID": 94,
+          "start_sec": 48,
+          "end_sec": 340,
+          "duration": 292,
+          "exercise_name": "warmup",
+          "start_time": "00:00:48",
+          "end_time": "00:05:40",
+          "total_time": "00:04:52"
+        },
+        {
+          "clip_ID": 110,
+          "video_ID": 94,
+          "start_sec": 353,
+          "end_sec": 384,
+          "duration": 31,
+          "exercise_name": "overhead squat",
+          "start_time": "00:05:53",
+          "end_time": "00:06:24",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 111,
+          "video_ID": 94,
+          "start_sec": 866,
+          "end_sec": 944,
+          "duration": 78,
+          "exercise_name": "boxing",
+          "start_time": "00:14:26",
+          "end_time": "00:15:44",
+          "total_time": "00:01:18"
+        },
+        {
+          "clip_ID": 112,
+          "video_ID": 94,
+          "start_sec": 530,
+          "end_sec": 564,
+          "duration": 34,
+          "exercise_name": "standing roll out",
+          "start_time": "00:08:50",
+          "end_time": "00:09:24",
+          "total_time": "00:00:34"
+        },
+        {
+          "clip_ID": 113,
+          "video_ID": 94,
+          "start_sec": 707,
+          "end_sec": 744,
+          "duration": 37,
+          "exercise_name": "overhead back extensions",
+          "start_time": "00:11:47",
+          "end_time": "00:12:24",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 114,
+          "video_ID": 94,
+          "start_sec": 973,
+          "end_sec": 1010,
+          "duration": 37,
+          "exercise_name": "plank saw",
+          "start_time": "00:16:13",
+          "end_time": "00:16:50",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 115,
+          "video_ID": 94,
+          "start_sec": 1157,
+          "end_sec": 1186,
+          "duration": 29,
+          "exercise_name": "plank crunch",
+          "start_time": "00:19:17",
+          "end_time": "00:19:46",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 116,
+          "video_ID": 94,
+          "start_sec": 1334,
+          "end_sec": 1374,
+          "duration": 40,
+          "exercise_name": "standing hip drop",
+          "start_time": "00:22:14",
+          "end_time": "00:22:54",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 117,
+          "video_ID": 94,
+          "start_sec": 1517,
+          "end_sec": 1552,
+          "duration": 35,
+          "exercise_name": "kneeling roll out",
+          "start_time": "00:25:17",
+          "end_time": "00:25:52",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 118,
+          "video_ID": 94,
+          "start_sec": 1707,
+          "end_sec": 1836,
+          "duration": 129,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:27",
+          "end_time": "00:30:36",
+          "total_time": "00:02:09"
+        },
+        {
+          "clip_ID": 119,
+          "video_ID": 95,
+          "start_sec": 50,
+          "end_sec": 342,
+          "duration": 292,
+          "exercise_name": "warmup",
+          "start_time": "00:00:50",
+          "end_time": "00:05:42",
+          "total_time": "00:04:52"
+        },
+        {
+          "clip_ID": 120,
+          "video_ID": 95,
+          "start_sec": 345,
+          "end_sec": 382,
+          "duration": 37,
+          "exercise_name": "chest press",
+          "start_time": "00:05:45",
+          "end_time": "00:06:22",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 121,
+          "video_ID": 95,
+          "start_sec": 383,
+          "end_sec": 401,
+          "duration": 18,
+          "exercise_name": "stand to plank",
+          "start_time": "00:06:23",
+          "end_time": "00:06:41",
+          "total_time": "00:00:18"
+        },
+        {
+          "clip_ID": 122,
+          "video_ID": 95,
+          "start_sec": 525,
+          "end_sec": 564,
+          "duration": 39,
+          "exercise_name": "closegrip chestpress",
+          "start_time": "00:08:45",
+          "end_time": "00:09:24",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 123,
+          "video_ID": 95,
+          "start_sec": 710,
+          "end_sec": 744,
+          "duration": 34,
+          "exercise_name": "low row",
+          "start_time": "00:11:50",
+          "end_time": "00:12:24",
+          "total_time": "00:00:34"
+        },
+        {
+          "clip_ID": 124,
+          "video_ID": 95,
+          "start_sec": 870,
+          "end_sec": 943,
+          "duration": 73,
+          "exercise_name": "stand to plank",
+          "start_time": "00:14:30",
+          "end_time": "00:15:43",
+          "total_time": "00:01:13"
+        },
+        {
+          "clip_ID": 125,
+          "video_ID": 95,
+          "start_sec": 976,
+          "end_sec": 1014,
+          "duration": 38,
+          "exercise_name": "shoulder row",
+          "start_time": "00:16:16",
+          "end_time": "00:16:54",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 126,
+          "video_ID": 95,
+          "start_sec": 1156,
+          "end_sec": 1193,
+          "duration": 37,
+          "exercise_name": "T-Y deltoid fly",
+          "start_time": "00:19:16",
+          "end_time": "00:19:53",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 127,
+          "video_ID": 95,
+          "start_sec": 1336,
+          "end_sec": 1373,
+          "duration": 37,
+          "exercise_name": "shoulder press",
+          "start_time": "00:22:16",
+          "end_time": "00:22:53",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 128,
+          "video_ID": 95,
+          "start_sec": 1517,
+          "end_sec": 1554,
+          "duration": 37,
+          "exercise_name": "biceps+triceps",
+          "start_time": "00:25:17",
+          "end_time": "00:25:54",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 129,
+          "video_ID": 95,
+          "start_sec": 1700,
+          "end_sec": 1842,
+          "duration": 142,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:20",
+          "end_time": "00:30:42",
+          "total_time": "00:02:22"
+        },
+        {
+          "clip_ID": 130,
+          "video_ID": 54,
+          "start_sec": 45,
+          "end_sec": 644,
+          "duration": 599,
+          "exercise_name": "warmup",
+          "start_time": "00:00:45",
+          "end_time": "00:10:44",
+          "total_time": "00:09:59"
+        },
+        {
+          "clip_ID": 131,
+          "video_ID": 54,
+          "start_sec": 734,
+          "end_sec": 763,
+          "duration": 29,
+          "exercise_name": "one leg chest press",
+          "start_time": "00:12:14",
+          "end_time": "00:12:43",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 132,
+          "video_ID": 54,
+          "start_sec": 914,
+          "end_sec": 943,
+          "duration": 29,
+          "exercise_name": "one arm row",
+          "start_time": "00:15:14",
+          "end_time": "00:15:43",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 133,
+          "video_ID": 54,
+          "start_sec": 1095,
+          "end_sec": 1123,
+          "duration": 28,
+          "exercise_name": "y-fly",
+          "start_time": "00:18:15",
+          "end_time": "00:18:43",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 134,
+          "video_ID": 54,
+          "start_sec": 1275,
+          "end_sec": 1304,
+          "duration": 29,
+          "exercise_name": "power pull",
+          "start_time": "00:21:15",
+          "end_time": "00:21:44",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 135,
+          "video_ID": 54,
+          "start_sec": 1424,
+          "end_sec": 1456,
+          "duration": 32,
+          "exercise_name": "single leg squat",
+          "start_time": "00:23:44",
+          "end_time": "00:24:16",
+          "total_time": "00:00:32"
+        },
+        {
+          "clip_ID": 136,
+          "video_ID": 54,
+          "start_sec": 1665,
+          "end_sec": 1697,
+          "duration": 32,
+          "exercise_name": "floor touch",
+          "start_time": "00:27:45",
+          "end_time": "00:28:17",
+          "total_time": "00:00:32"
+        },
+        {
+          "clip_ID": 137,
+          "video_ID": 54,
+          "start_sec": 1781,
+          "end_sec": 1814,
+          "duration": 33,
+          "exercise_name": "balance lunges hop",
+          "start_time": "00:29:41",
+          "end_time": "00:30:14",
+          "total_time": "00:00:33"
+        },
+        {
+          "clip_ID": 138,
+          "video_ID": 54,
+          "start_sec": 1964,
+          "end_sec": 1995,
+          "duration": 31,
+          "exercise_name": "hamstring curl hip press",
+          "start_time": "00:32:44",
+          "end_time": "00:33:15",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 139,
+          "video_ID": 54,
+          "start_sec": 2175,
+          "end_sec": 2203,
+          "duration": 28,
+          "exercise_name": "standing roll out",
+          "start_time": "00:36:15",
+          "end_time": "00:36:43",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 140,
+          "video_ID": 54,
+          "start_sec": 2301,
+          "end_sec": 2324,
+          "duration": 23,
+          "exercise_name": "mountain climbers",
+          "start_time": "00:38:21",
+          "end_time": "00:38:44",
+          "total_time": "00:00:23"
+        },
+        {
+          "clip_ID": 141,
+          "video_ID": 54,
+          "start_sec": 2475,
+          "end_sec": 2499,
+          "duration": 24,
+          "exercise_name": "saw",
+          "start_time": "00:41:15",
+          "end_time": "00:41:39",
+          "total_time": "00:00:24"
+        },
+        {
+          "clip_ID": 142,
+          "video_ID": 55,
+          "start_sec": 45,
+          "end_sec": 644,
+          "duration": 599,
+          "exercise_name": "warmup",
+          "start_time": "00:00:45",
+          "end_time": "00:10:44",
+          "total_time": "00:09:59"
+        },
+        {
+          "clip_ID": 143,
+          "video_ID": 55,
+          "start_sec": 679,
+          "end_sec": 717,
+          "duration": 38,
+          "exercise_name": "low chest press",
+          "start_time": "00:11:19",
+          "end_time": "00:11:57",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 144,
+          "video_ID": 55,
+          "start_sec": 854,
+          "end_sec": 894,
+          "duration": 40,
+          "exercise_name": "high row",
+          "start_time": "00:14:14",
+          "end_time": "00:14:54",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 145,
+          "video_ID": 55,
+          "start_sec": 1036,
+          "end_sec": 1075,
+          "duration": 39,
+          "exercise_name": "chest fly",
+          "start_time": "00:17:16",
+          "end_time": "00:17:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 146,
+          "video_ID": 55,
+          "start_sec": 1214,
+          "end_sec": 1257,
+          "duration": 43,
+          "exercise_name": "floor row",
+          "start_time": "00:20:14",
+          "end_time": "00:20:57",
+          "total_time": "00:00:43"
+        },
+        {
+          "clip_ID": 147,
+          "video_ID": 55,
+          "start_sec": 1426,
+          "end_sec": 1464,
+          "duration": 38,
+          "exercise_name": "split fly",
+          "start_time": "00:23:46",
+          "end_time": "00:24:24",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 148,
+          "video_ID": 55,
+          "start_sec": 1603,
+          "end_sec": 1645,
+          "duration": 42,
+          "exercise_name": "triceps extensions",
+          "start_time": "00:26:43",
+          "end_time": "00:27:25",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 149,
+          "video_ID": 55,
+          "start_sec": 1787,
+          "end_sec": 1825,
+          "duration": 38,
+          "exercise_name": "biceps clutch",
+          "start_time": "00:29:47",
+          "end_time": "00:30:25",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 150,
+          "video_ID": 55,
+          "start_sec": 2025,
+          "end_sec": 2063,
+          "duration": 38,
+          "exercise_name": "close grip triceps press",
+          "start_time": "00:33:45",
+          "end_time": "00:34:23",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 151,
+          "video_ID": 56,
+          "start_sec": 44,
+          "end_sec": 644,
+          "duration": 600,
+          "exercise_name": "warmup",
+          "start_time": "00:00:44",
+          "end_time": "00:10:44",
+          "total_time": "00:10:00"
+        },
+        {
+          "clip_ID": 152,
+          "video_ID": 56,
+          "start_sec": 854,
+          "end_sec": 895,
+          "duration": 41,
+          "exercise_name": "crossing lunge",
+          "start_time": "00:14:14",
+          "end_time": "00:14:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 153,
+          "video_ID": 56,
+          "start_sec": 1035,
+          "end_sec": 1075,
+          "duration": 40,
+          "exercise_name": "stiff leg deadlift",
+          "start_time": "00:17:15",
+          "end_time": "00:17:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 154,
+          "video_ID": 56,
+          "start_sec": 1274,
+          "end_sec": 1315,
+          "duration": 41,
+          "exercise_name": "back lunge",
+          "start_time": "00:21:14",
+          "end_time": "00:21:55",
+          "total_time": "00:00:41"
+        },
+        {
+          "clip_ID": 155,
+          "video_ID": 56,
+          "start_sec": 1425,
+          "end_sec": 1465,
+          "duration": 40,
+          "exercise_name": "hip thrusters",
+          "start_time": "00:23:45",
+          "end_time": "00:24:25",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 156,
+          "video_ID": 56,
+          "start_sec": 1785,
+          "end_sec": 1823,
+          "duration": 38,
+          "exercise_name": "figure 4 squat",
+          "start_time": "00:29:45",
+          "end_time": "00:30:23",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 157,
+          "video_ID": 56,
+          "start_sec": 1964,
+          "end_sec": 2007,
+          "duration": 43,
+          "exercise_name": "hip hinge",
+          "start_time": "00:32:44",
+          "end_time": "00:33:27",
+          "total_time": "00:00:43"
+        },
+        {
+          "clip_ID": 158,
+          "video_ID": 56,
+          "start_sec": 2234,
+          "end_sec": 2263,
+          "duration": 29,
+          "exercise_name": "pike",
+          "start_time": "00:37:14",
+          "end_time": "00:37:43",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 159,
+          "video_ID": 56,
+          "start_sec": 2294,
+          "end_sec": 2324,
+          "duration": 30,
+          "exercise_name": "hamstring runners",
+          "start_time": "00:38:14",
+          "end_time": "00:38:44",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 160,
+          "video_ID": 56,
+          "start_sec": 2417,
+          "end_sec": 2445,
+          "duration": 28,
+          "exercise_name": "plank jack",
+          "start_time": "00:40:17",
+          "end_time": "00:40:45",
+          "total_time": "00:00:28"
+        },
+        {
+          "clip_ID": 161,
+          "video_ID": 57,
+          "start_sec": 44,
+          "end_sec": 644,
+          "duration": 600,
+          "exercise_name": "warmup",
+          "start_time": "00:00:44",
+          "end_time": "00:10:44",
+          "total_time": "00:10:00"
+        },
+        {
+          "clip_ID": 162,
+          "video_ID": 57,
+          "start_sec": 674,
+          "end_sec": 735,
+          "duration": 61,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:11:14",
+          "end_time": "00:12:15",
+          "total_time": "00:01:01"
+        },
+        {
+          "clip_ID": 163,
+          "video_ID": 57,
+          "start_sec": 755,
+          "end_sec": 815,
+          "duration": 60,
+          "exercise_name": "floor squat",
+          "start_time": "00:12:35",
+          "end_time": "00:13:35",
+          "total_time": "00:01:00"
+        },
+        {
+          "clip_ID": 164,
+          "video_ID": 57,
+          "start_sec": 834,
+          "end_sec": 895,
+          "duration": 61,
+          "exercise_name": "skater jump",
+          "start_time": "00:13:54",
+          "end_time": "00:14:55",
+          "total_time": "00:01:01"
+        },
+        {
+          "clip_ID": 165,
+          "video_ID": 58,
+          "start_sec": 44,
+          "end_sec": 644,
+          "duration": 600,
+          "exercise_name": "warmup",
+          "start_time": "00:00:44",
+          "end_time": "00:10:44",
+          "total_time": "00:10:00"
+        },
+        {
+          "clip_ID": 166,
+          "video_ID": 58,
+          "start_sec": 2180,
+          "end_sec": 2203,
+          "duration": 23,
+          "exercise_name": "torso rotation",
+          "start_time": "00:36:20",
+          "end_time": "00:36:43",
+          "total_time": "00:00:23"
+        },
+        {
+          "clip_ID": 167,
+          "video_ID": 58,
+          "start_sec": 2294,
+          "end_sec": 2323,
+          "duration": 29,
+          "exercise_name": "i-fly",
+          "start_time": "00:38:14",
+          "end_time": "00:38:43",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 168,
+          "video_ID": 58,
+          "start_sec": 2414,
+          "end_sec": 2445,
+          "duration": 31,
+          "exercise_name": "kneeling roll out",
+          "start_time": "00:40:14",
+          "end_time": "00:40:45",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 169,
+          "video_ID": 39,
+          "start_sec": 52,
+          "end_sec": 642,
+          "duration": 590,
+          "exercise_name": "warmup",
+          "start_time": "00:00:52",
+          "end_time": "00:10:42",
+          "total_time": "00:09:50"
+        },
+        {
+          "clip_ID": 170,
+          "video_ID": 39,
+          "start_sec": 676,
+          "end_sec": 734,
+          "duration": 58,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:11:16",
+          "end_time": "00:12:14",
+          "total_time": "00:00:58"
+        },
+        {
+          "clip_ID": 171,
+          "video_ID": 39,
+          "start_sec": 755,
+          "end_sec": 814,
+          "duration": 59,
+          "exercise_name": "floor squat",
+          "start_time": "00:12:35",
+          "end_time": "00:13:34",
+          "total_time": "00:00:59"
+        },
+        {
+          "clip_ID": 172,
+          "video_ID": 39,
+          "start_sec": 835,
+          "end_sec": 894,
+          "duration": 59,
+          "exercise_name": "skater jump",
+          "start_time": "00:13:55",
+          "end_time": "00:14:54",
+          "total_time": "00:00:59"
+        },
+        {
+          "clip_ID": 173,
+          "video_ID": 39,
+          "start_sec": 915,
+          "end_sec": 975,
+          "duration": 60,
+          "exercise_name": "plank jack",
+          "start_time": "00:15:15",
+          "end_time": "00:16:15",
+          "total_time": "00:01:00"
+        },
+        {
+          "clip_ID": 174,
+          "video_ID": 39,
+          "start_sec": 995,
+          "end_sec": 1044,
+          "duration": 49,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:16:35",
+          "end_time": "00:17:24",
+          "total_time": "00:00:49"
+        },
+        {
+          "clip_ID": 175,
+          "video_ID": 39,
+          "start_sec": 1065,
+          "end_sec": 1114,
+          "duration": 49,
+          "exercise_name": "floor squat",
+          "start_time": "00:17:45",
+          "end_time": "00:18:34",
+          "total_time": "00:00:49"
+        },
+        {
+          "clip_ID": 176,
+          "video_ID": 39,
+          "start_sec": 1134,
+          "end_sec": 1184,
+          "duration": 50,
+          "exercise_name": "skater jump",
+          "start_time": "00:18:54",
+          "end_time": "00:19:44",
+          "total_time": "00:00:50"
+        },
+        {
+          "clip_ID": 177,
+          "video_ID": 39,
+          "start_sec": 1205,
+          "end_sec": 1254,
+          "duration": 49,
+          "exercise_name": "plank jack",
+          "start_time": "00:20:05",
+          "end_time": "00:20:54",
+          "total_time": "00:00:49"
+        },
+        {
+          "clip_ID": 178,
+          "video_ID": 39,
+          "start_sec": 1275,
+          "end_sec": 1314,
+          "duration": 39,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:21:15",
+          "end_time": "00:21:54",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 179,
+          "video_ID": 39,
+          "start_sec": 1335,
+          "end_sec": 1374,
+          "duration": 39,
+          "exercise_name": "floor squat",
+          "start_time": "00:22:15",
+          "end_time": "00:22:54",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 180,
+          "video_ID": 39,
+          "start_sec": 1396,
+          "end_sec": 1435,
+          "duration": 39,
+          "exercise_name": "skater jump",
+          "start_time": "00:23:16",
+          "end_time": "00:23:55",
+          "total_time": "00:00:39"
+        },
+        {
+          "clip_ID": 181,
+          "video_ID": 39,
+          "start_sec": 1455,
+          "end_sec": 1495,
+          "duration": 40,
+          "exercise_name": "plank jack",
+          "start_time": "00:24:15",
+          "end_time": "00:24:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 182,
+          "video_ID": 39,
+          "start_sec": 1515,
+          "end_sec": 1544,
+          "duration": 29,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:25:15",
+          "end_time": "00:25:44",
+          "total_time": "00:00:29"
+        },
+        {
+          "clip_ID": 183,
+          "video_ID": 39,
+          "start_sec": 1565,
+          "end_sec": 1595,
+          "duration": 30,
+          "exercise_name": "floor squat",
+          "start_time": "00:26:05",
+          "end_time": "00:26:35",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 184,
+          "video_ID": 39,
+          "start_sec": 1615,
+          "end_sec": 1645,
+          "duration": 30,
+          "exercise_name": "skater jump",
+          "start_time": "00:26:55",
+          "end_time": "00:27:25",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 185,
+          "video_ID": 39,
+          "start_sec": 1665,
+          "end_sec": 1695,
+          "duration": 30,
+          "exercise_name": "plank jack",
+          "start_time": "00:27:45",
+          "end_time": "00:28:15",
+          "total_time": "00:00:30"
+        },
+        {
+          "clip_ID": 186,
+          "video_ID": 39,
+          "start_sec": 1715,
+          "end_sec": 1735,
+          "duration": 20,
+          "exercise_name": "flutter kick squat",
+          "start_time": "00:28:35",
+          "end_time": "00:28:55",
+          "total_time": "00:00:20"
+        },
+        {
+          "clip_ID": 187,
+          "video_ID": 39,
+          "start_sec": 1755,
+          "end_sec": 1775,
+          "duration": 20,
+          "exercise_name": "floor squat",
+          "start_time": "00:29:15",
+          "end_time": "00:29:35",
+          "total_time": "00:00:20"
+        },
+        {
+          "clip_ID": 188,
+          "video_ID": 39,
+          "start_sec": 1796,
+          "end_sec": 1814,
+          "duration": 18,
+          "exercise_name": "skater jump",
+          "start_time": "00:29:56",
+          "end_time": "00:30:14",
+          "total_time": "00:00:18"
+        },
+        {
+          "clip_ID": 189,
+          "video_ID": 39,
+          "start_sec": 1835,
+          "end_sec": 1855,
+          "duration": 20,
+          "exercise_name": "plank jack",
+          "start_time": "00:30:35",
+          "end_time": "00:30:55",
+          "total_time": "00:00:20"
+        },
+        {
+          "clip_ID": 190,
+          "video_ID": 72,
+          "start_sec": 49,
+          "end_sec": 340,
+          "duration": 291,
+          "exercise_name": "warmup",
+          "start_time": "00:00:49",
+          "end_time": "00:05:40",
+          "total_time": "00:04:51"
+        },
+        {
+          "clip_ID": 191,
+          "video_ID": 72,
+          "start_sec": 355,
+          "end_sec": 387,
+          "duration": 32,
+          "exercise_name": "single leg squat",
+          "start_time": "00:05:55",
+          "end_time": "00:06:27",
+          "total_time": "00:00:32"
+        },
+        {
+          "clip_ID": 192,
+          "video_ID": 72,
+          "start_sec": 445,
+          "end_sec": 459,
+          "duration": 14,
+          "exercise_name": "jumping jacks",
+          "start_time": "00:07:25",
+          "end_time": "00:07:39",
+          "total_time": "00:00:14"
+        },
+        {
+          "clip_ID": 193,
+          "video_ID": 72,
+          "start_sec": 518,
+          "end_sec": 554,
+          "duration": 36,
+          "exercise_name": "hamstring curl",
+          "start_time": "00:08:38",
+          "end_time": "00:09:14",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 194,
+          "video_ID": 72,
+          "start_sec": 705,
+          "end_sec": 743,
+          "duration": 38,
+          "exercise_name": "side lunge",
+          "start_time": "00:11:45",
+          "end_time": "00:12:23",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 195,
+          "video_ID": 72,
+          "start_sec": 873,
+          "end_sec": 944,
+          "duration": 71,
+          "exercise_name": "jumping jacks",
+          "start_time": "00:14:33",
+          "end_time": "00:15:44",
+          "total_time": "00:01:11"
+        },
+        {
+          "clip_ID": 196,
+          "video_ID": 72,
+          "start_sec": 976,
+          "end_sec": 1016,
+          "duration": 40,
+          "exercise_name": "chest press",
+          "start_time": "00:16:16",
+          "end_time": "00:16:56",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 197,
+          "video_ID": 72,
+          "start_sec": 1275,
+          "end_sec": 1312,
+          "duration": 37,
+          "exercise_name": "row",
+          "start_time": "00:21:15",
+          "end_time": "00:21:52",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 198,
+          "video_ID": 72,
+          "start_sec": 1330,
+          "end_sec": 1370,
+          "duration": 40,
+          "exercise_name": "mountain climbers",
+          "start_time": "00:22:10",
+          "end_time": "00:22:50",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 199,
+          "video_ID": 72,
+          "start_sec": 1575,
+          "end_sec": 1610,
+          "duration": 35,
+          "exercise_name": "superman",
+          "start_time": "00:26:15",
+          "end_time": "00:26:50",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 200,
+          "video_ID": 72,
+          "start_sec": 1714,
+          "end_sec": 1845,
+          "duration": 131,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:34",
+          "end_time": "00:30:45",
+          "total_time": "00:02:11"
+        },
+        {
+          "clip_ID": 201,
+          "video_ID": 73,
+          "start_sec": 49,
+          "end_sec": 342,
+          "duration": 293,
+          "exercise_name": "warmup",
+          "start_time": "00:00:49",
+          "end_time": "00:05:42",
+          "total_time": "00:04:53"
+        },
+        {
+          "clip_ID": 202,
+          "video_ID": 73,
+          "start_sec": 347,
+          "end_sec": 380,
+          "duration": 33,
+          "exercise_name": "floor squat",
+          "start_time": "00:05:47",
+          "end_time": "00:06:20",
+          "total_time": "00:00:33"
+        },
+        {
+          "clip_ID": 203,
+          "video_ID": 73,
+          "start_sec": 526,
+          "end_sec": 557,
+          "duration": 31,
+          "exercise_name": "side lunge",
+          "start_time": "00:08:46",
+          "end_time": "00:09:17",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 204,
+          "video_ID": 73,
+          "start_sec": 705,
+          "end_sec": 741,
+          "duration": 36,
+          "exercise_name": "front squat",
+          "start_time": "00:11:45",
+          "end_time": "00:12:21",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 205,
+          "video_ID": 73,
+          "start_sec": 975,
+          "end_sec": 1010,
+          "duration": 35,
+          "exercise_name": "hamstring runners",
+          "start_time": "00:16:15",
+          "end_time": "00:16:50",
+          "total_time": "00:00:35"
+        },
+        {
+          "clip_ID": 206,
+          "video_ID": 73,
+          "start_sec": 1153,
+          "end_sec": 1195,
+          "duration": 42,
+          "exercise_name": "lunges",
+          "start_time": "00:19:13",
+          "end_time": "00:19:55",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 207,
+          "video_ID": 73,
+          "start_sec": 1335,
+          "end_sec": 1372,
+          "duration": 37,
+          "exercise_name": "stiff leg deadlift",
+          "start_time": "00:22:15",
+          "end_time": "00:22:52",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 208,
+          "video_ID": 73,
+          "start_sec": 1520,
+          "end_sec": 1545,
+          "duration": 25,
+          "exercise_name": "squat jump",
+          "start_time": "00:25:20",
+          "end_time": "00:25:45",
+          "total_time": "00:00:25"
+        },
+        {
+          "clip_ID": 209,
+          "video_ID": 73,
+          "start_sec": 1700,
+          "end_sec": 1836,
+          "duration": 136,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:20",
+          "end_time": "00:30:36",
+          "total_time": "00:02:16"
+        },
+        {
+          "clip_ID": 210,
+          "video_ID": 74,
+          "start_sec": 53,
+          "end_sec": 340,
+          "duration": 287,
+          "exercise_name": "warmup",
+          "start_time": "00:00:53",
+          "end_time": "00:05:40",
+          "total_time": "00:04:47"
+        },
+        {
+          "clip_ID": 211,
+          "video_ID": 74,
+          "start_sec": 347,
+          "end_sec": 380,
+          "duration": 33,
+          "exercise_name": "pushup",
+          "start_time": "00:05:47",
+          "end_time": "00:06:20",
+          "total_time": "00:00:33"
+        },
+        {
+          "clip_ID": 212,
+          "video_ID": 74,
+          "start_sec": 559,
+          "end_sec": 573,
+          "duration": 14,
+          "exercise_name": "ministeps",
+          "start_time": "00:09:19",
+          "end_time": "00:09:33",
+          "total_time": "00:00:14"
+        },
+        {
+          "clip_ID": 213,
+          "video_ID": 74,
+          "start_sec": 526,
+          "end_sec": 557,
+          "duration": 31,
+          "exercise_name": "chest press",
+          "start_time": "00:08:46",
+          "end_time": "00:09:17",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 214,
+          "video_ID": 74,
+          "start_sec": 827,
+          "end_sec": 859,
+          "duration": 32,
+          "exercise_name": "fly",
+          "start_time": "00:13:47",
+          "end_time": "00:14:19",
+          "total_time": "00:00:32"
+        },
+        {
+          "clip_ID": 215,
+          "video_ID": 74,
+          "start_sec": 975,
+          "end_sec": 1017,
+          "duration": 42,
+          "exercise_name": "onearm chestpress",
+          "start_time": "00:16:15",
+          "end_time": "00:16:57",
+          "total_time": "00:00:42"
+        },
+        {
+          "clip_ID": 216,
+          "video_ID": 74,
+          "start_sec": 1155,
+          "end_sec": 1186,
+          "duration": 31,
+          "exercise_name": "closegrip chestpress",
+          "start_time": "00:19:15",
+          "end_time": "00:19:46",
+          "total_time": "00:00:31"
+        },
+        {
+          "clip_ID": 217,
+          "video_ID": 74,
+          "start_sec": 1338,
+          "end_sec": 1374,
+          "duration": 36,
+          "exercise_name": "pullover",
+          "start_time": "00:22:18",
+          "end_time": "00:22:54",
+          "total_time": "00:00:36"
+        },
+        {
+          "clip_ID": 218,
+          "video_ID": 74,
+          "start_sec": 1520,
+          "end_sec": 1557,
+          "duration": 37,
+          "exercise_name": "squeeze press",
+          "start_time": "00:25:20",
+          "end_time": "00:25:57",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 219,
+          "video_ID": 74,
+          "start_sec": 1707,
+          "end_sec": 1841,
+          "duration": 134,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:27",
+          "end_time": "00:30:41",
+          "total_time": "00:02:14"
+        },
+        {
+          "clip_ID": 220,
+          "video_ID": 75,
+          "start_sec": 50,
+          "end_sec": 352,
+          "duration": 302,
+          "exercise_name": "warmup",
+          "start_time": "00:00:50",
+          "end_time": "00:05:52",
+          "total_time": "00:05:02"
+        },
+        {
+          "clip_ID": 221,
+          "video_ID": 75,
+          "start_sec": 408,
+          "end_sec": 427,
+          "duration": 19,
+          "exercise_name": "T-Y deltoid fly",
+          "start_time": "00:06:48",
+          "end_time": "00:07:07",
+          "total_time": "00:00:19"
+        },
+        {
+          "clip_ID": 222,
+          "video_ID": 75,
+          "start_sec": 525,
+          "end_sec": 546,
+          "duration": 21,
+          "exercise_name": "single leg squat",
+          "start_time": "00:08:45",
+          "end_time": "00:09:06",
+          "total_time": "00:00:21"
+        },
+        {
+          "clip_ID": 223,
+          "video_ID": 75,
+          "start_sec": 606,
+          "end_sec": 615,
+          "duration": 9,
+          "exercise_name": "jump back",
+          "start_time": "00:10:06",
+          "end_time": "00:10:15",
+          "total_time": "00:00:09"
+        },
+        {
+          "clip_ID": 224,
+          "video_ID": 75,
+          "start_sec": 766,
+          "end_sec": 785,
+          "duration": 19,
+          "exercise_name": "single arm back row",
+          "start_time": "00:12:46",
+          "end_time": "00:13:05",
+          "total_time": "00:00:19"
+        },
+        {
+          "clip_ID": 225,
+          "video_ID": 75,
+          "start_sec": 975,
+          "end_sec": 997,
+          "duration": 22,
+          "exercise_name": "plank jack",
+          "start_time": "00:16:15",
+          "end_time": "00:16:37",
+          "total_time": "00:00:22"
+        },
+        {
+          "clip_ID": 226,
+          "video_ID": 75,
+          "start_sec": 1156,
+          "end_sec": 1177,
+          "duration": 21,
+          "exercise_name": "hamstring runners",
+          "start_time": "00:19:16",
+          "end_time": "00:19:37",
+          "total_time": "00:00:21"
+        },
+        {
+          "clip_ID": 227,
+          "video_ID": 75,
+          "start_sec": 1335,
+          "end_sec": 1355,
+          "duration": 20,
+          "exercise_name": "chest press + reach out",
+          "start_time": "00:22:15",
+          "end_time": "00:22:35",
+          "total_time": "00:00:20"
+        },
+        {
+          "clip_ID": 228,
+          "video_ID": 75,
+          "start_sec": 1636,
+          "end_sec": 1655,
+          "duration": 19,
+          "exercise_name": "hip drop",
+          "start_time": "00:27:16",
+          "end_time": "00:27:35",
+          "total_time": "00:00:19"
+        },
+        {
+          "clip_ID": 229,
+          "video_ID": 75,
+          "start_sec": 1695,
+          "end_sec": 1844,
+          "duration": 149,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:15",
+          "end_time": "00:30:44",
+          "total_time": "00:02:29"
+        },
+        {
+          "clip_ID": 230,
+          "video_ID": 76,
+          "start_sec": 50,
+          "end_sec": 346,
+          "duration": 296,
+          "exercise_name": "warmup",
+          "start_time": "00:00:50",
+          "end_time": "00:05:46",
+          "total_time": "00:04:56"
+        },
+        {
+          "clip_ID": 231,
+          "video_ID": 76,
+          "start_sec": 346,
+          "end_sec": 386,
+          "duration": 40,
+          "exercise_name": "mid row",
+          "start_time": "00:05:46",
+          "end_time": "00:06:26",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 232,
+          "video_ID": 76,
+          "start_sec": 647,
+          "end_sec": 685,
+          "duration": 38,
+          "exercise_name": "power pull",
+          "start_time": "00:10:47",
+          "end_time": "00:11:25",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 233,
+          "video_ID": 76,
+          "start_sec": 767,
+          "end_sec": 804,
+          "duration": 37,
+          "exercise_name": "shoulder row",
+          "start_time": "00:12:47",
+          "end_time": "00:13:24",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 234,
+          "video_ID": 76,
+          "start_sec": 1037,
+          "end_sec": 1074,
+          "duration": 37,
+          "exercise_name": "i-fly",
+          "start_time": "00:17:17",
+          "end_time": "00:17:54",
+          "total_time": "00:00:37"
+        },
+        {
+          "clip_ID": 235,
+          "video_ID": 76,
+          "start_sec": 1276,
+          "end_sec": 1316,
+          "duration": 40,
+          "exercise_name": "split fly",
+          "start_time": "00:21:16",
+          "end_time": "00:21:56",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 236,
+          "video_ID": 76,
+          "start_sec": 1455,
+          "end_sec": 1495,
+          "duration": 40,
+          "exercise_name": "biceps curl",
+          "start_time": "00:24:15",
+          "end_time": "00:24:55",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 237,
+          "video_ID": 76,
+          "start_sec": 1636,
+          "end_sec": 1674,
+          "duration": 38,
+          "exercise_name": "triceps press",
+          "start_time": "00:27:16",
+          "end_time": "00:27:54",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 238,
+          "video_ID": 76,
+          "start_sec": 1700,
+          "end_sec": 1846,
+          "duration": 146,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:20",
+          "end_time": "00:30:46",
+          "total_time": "00:02:26"
+        },
+        {
+          "clip_ID": 239,
+          "video_ID": 77,
+          "start_sec": 45,
+          "end_sec": 342,
+          "duration": 297,
+          "exercise_name": "warmup",
+          "start_time": "00:00:45",
+          "end_time": "00:05:42",
+          "total_time": "00:04:57"
+        },
+        {
+          "clip_ID": 240,
+          "video_ID": 77,
+          "start_sec": 405,
+          "end_sec": 445,
+          "duration": 40,
+          "exercise_name": "shoulder press",
+          "start_time": "00:06:45",
+          "end_time": "00:07:25",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 241,
+          "video_ID": 77,
+          "start_sec": 446,
+          "end_sec": 462,
+          "duration": 16,
+          "exercise_name": "jog",
+          "start_time": "00:07:26",
+          "end_time": "00:07:42",
+          "total_time": "00:00:16"
+        },
+        {
+          "clip_ID": 242,
+          "video_ID": 77,
+          "start_sec": 648,
+          "end_sec": 686,
+          "duration": 38,
+          "exercise_name": "y-fly",
+          "start_time": "00:10:48",
+          "end_time": "00:11:26",
+          "total_time": "00:00:38"
+        },
+        {
+          "clip_ID": 243,
+          "video_ID": 77,
+          "start_sec": 705,
+          "end_sec": 745,
+          "duration": 40,
+          "exercise_name": "torso rotation",
+          "start_time": "00:11:45",
+          "end_time": "00:12:25",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 244,
+          "video_ID": 77,
+          "start_sec": 975,
+          "end_sec": 1020,
+          "duration": 45,
+          "exercise_name": "i-fly",
+          "start_time": "00:16:15",
+          "end_time": "00:17:00",
+          "total_time": "00:00:45"
+        },
+        {
+          "clip_ID": 245,
+          "video_ID": 77,
+          "start_sec": 1156,
+          "end_sec": 1196,
+          "duration": 40,
+          "exercise_name": "w-fly",
+          "start_time": "00:19:16",
+          "end_time": "00:19:56",
+          "total_time": "00:00:40"
+        },
+        {
+          "clip_ID": 246,
+          "video_ID": 77,
+          "start_sec": 977,
+          "end_sec": 1615,
+          "duration": 638,
+          "exercise_name": "face row",
+          "start_time": "00:16:17",
+          "end_time": "00:26:55",
+          "total_time": "00:10:38"
+        },
+        {
+          "clip_ID": 247,
+          "video_ID": 77,
+          "start_sec": 1699,
+          "end_sec": 1844,
+          "duration": 145,
+          "exercise_name": "cooldown",
+          "start_time": "00:28:19",
+          "end_time": "00:30:44",
+          "total_time": "00:02:25"
+        }
+      ]
+    }
+  ]
+}

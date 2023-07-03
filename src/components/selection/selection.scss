@@ -1,0 +1,301 @@
+@import '../../sassStyles/_mixins.scss';
+@import '../../sassStyles/variables';
+
+.progress-container {
+
+    display: flex;
+    flex: 0;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__text {
+        font-size: 25px;
+        text-align: center;
+        @include font;
+    }
+
+    &__tab {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+
+        &__active {
+            width: 3rem;
+            height: 2rem;
+            background-color: grey;
+            border-radius: 8px;
+            margin: 0.2rem;
+            display: flex;
+            font-size: 90%;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        &__inactive {
+            width: 3rem;
+            height: 2rem;
+            background-color: lightgrey;
+            border-radius: 8px;
+            margin: 0.2rem;
+            display: flex;
+            font-size: 90%;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        &__bar {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            padding:10%;
+
+            &__text {
+                @include font;
+                font-size: 15px;
+                text-align: center;
+                margin-inline: 5%;
+            }
+        }
+    }
+};
+
+.title {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex: 0;
+
+    &__text {
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 20px 0px;
+        @include font
+    }
+
+    &__wrapper {
+        display: flex;
+        width:50px;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 1%;
+    }
+
+    &__icon {
+        color: grey;
+        font-size: 25px;
+    }
+};
+
+.popover {
+
+    &__display {
+        max-width: 90%;
+    }
+
+    &__text {
+        @include font;
+        color:black;
+        font-weight: 500;
+        font-size: 12px;
+        padding:10px;
+    }
+
+    @media (min-width: 501px) and (max-width: 768px) {
+        &__display {
+            max-width: 80%;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+
+    @media (min-width: 769px) {
+        &__display{
+            max-width: 70%;
+        }
+        &__text {
+            font-size: 15px;
+        }
+        
+    }
+};
+
+.selection-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+
+    &__left {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    &__right {
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    &__options {
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 4;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__options-muscles {
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 4;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__button {
+        
+        background-color: lightgray;
+        padding: 6px 12px;
+        text-align: center;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 20px;
+
+        > p {
+            @include font;
+            font-weight: 600;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+};
+
+.muscle-modal {
+
+    &-header {
+        justify-content: center;
+    }
+
+    &-footer {
+        justify-content: center;
+    }
+
+    &__text {
+        @include font;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__muscles {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 5px 5px;
+    }
+
+    &__button {
+        background-color: lightgray;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 20px;
+        @include font;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 4px 20px;
+    }
+
+};
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+};
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+};
+
+@keyframes slide-in-bottom {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+};
+
+.select-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    // gap: px;
+}
+
+.generate{
+    &__div{
+        margin-top: 1.5rem;
+        display:flex;
+        width: 300px;
+        height: 3.5rem;
+    }
+
+    &__button{
+        background-color: $primary-colour;
+        @include font;
+        width: 100%;
+        height: 3.5rem;
+        font-size: 1.2rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 3px dotted $border-lining-colour;
+        border-radius: 20px;  
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (hover: hover) {
+        &__button:hover {
+        background: #eed600;
+        }       
+    }
+
+}
+
+.icon {
+    font-size: 30px;
+    margin: 0px;
+    color:black;
+}

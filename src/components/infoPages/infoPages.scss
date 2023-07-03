@@ -1,0 +1,170 @@
+@import '../../sassStyles/variables';
+@import '../../sassStyles/mixins';
+
+.about {
+   
+    &__title {
+        @include font;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 24px;
+
+    }
+    &__team-title {
+        @include font;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    &__description{
+        @include font;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__team-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // padding: 24px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    &__team-members{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__member{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px;
+    }
+
+    &__member-photo{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 12px;
+        border: 4px solid $primary-colour;
+    }
+
+    &__member-name{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    &__member-link{
+        @include font;
+        font-weight: 600;
+        color:#0077b5;
+        font-size: 14px;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color: $primary-colour;
+        }
+    }
+    &__YTLink{
+        @include font;
+        font-weight: 600;
+        color:black;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            color: $primary-colour;
+        }
+    }
+}
+
+.dev{
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 5%;
+
+    }
+
+    &__title {
+        @include font;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 24px;
+
+    }
+
+    &__description{
+        @include font;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 800px;
+  
+        padding: 24px;
+        background-color: #F7F7F7;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    &__description-text{
+        @include font;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+  
+    }
+
+    &__github-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    &__github-link{
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        background-color: $primary-colour;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #4078c0;
+            color: #222;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+

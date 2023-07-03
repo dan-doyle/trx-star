@@ -1,0 +1,30 @@
+stages:          # List of stages for jobs, and their order of execution
+  - deploy
+
+deploy_preview:
+  stage: deploy
+  except:   # This creates preview environments on commits pushed to a git branch
+    - master
+  script:
+    - export NVM_DIR="$HOME/../pp1722/.nvm" && . "$NVM_DIR/nvm.sh" --no-use #load nvm
+    - nvm use v18.0.0
+    - echo "Vercel git branch "
+    - sudo npm install --global vercel
+    - vercel pull --yes --environment=preview --token=$VERCEL_TOKEN
+    - vercel build --token=$VERCEL_TOKEN
+    - vercel deploy --prebuilt  --token=$VERCEL_TOKEN
+
+
+deploy_production:
+  stage: deploy
+  only:  # This creates production environments on commits to the main branch
+    - master
+  script:
+     - export NVM_DIR="$HOME/../pp1722/.nvm" && . "$NVM_DIR/nvm.sh" --no-use #load nvm
+     - nvm use v18.0.0
+     - echo "Vercel master"
+     - sudo npm install --global vercel
+     - vercel pull --yes --environment=production --token=$VERCEL_TOKEN
+     - vercel build --prod --token=$VERCEL_TOKEN
+     - vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+     - echo "Vercel deployed"
